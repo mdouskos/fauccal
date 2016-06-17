@@ -31,7 +31,7 @@ end
 f=fopen([dir fnsave],'w');
 slsh=repmat('/',1,59);
 fprintf(f,'%s\n',slsh);
-fprintf(f,'//Automaticaly generated results file produced by FAUCCAL//\n');
+fprintf(f,'//Automatically generated results file produced by FAUCCAL//\n');
 fprintf(f,'//Created by Valsamis Douskos                            //\n');
 t_prod=datestr(now);
 blks=repmat(' ',1,25);
